@@ -1,7 +1,7 @@
 {
   "format": 2,
-  "generated_at": "2026-10-05T14:51:20Z",
-  "sanctions_lists_read_at": "2026-10-03T19:46:06Z",
+  "generated_at": "2026-10-05T15:52:02Z",
+  "sanctions_lists_read_at": "2026-10-05T15:15:10Z",
   "revocation_checked_at": "2026-10-05T12:26:51Z",
   "crl_issued_min": "2026-10-04T19:09:51Z",
   "crl_issued_max": "2026-10-05T12:14:30Z",
@@ -11,8 +11,8 @@
       "name": "EU and French national asset freezes (French Treasury register)",
       "url": "https://gels-avoirs.dgtresor.gouv.fr/ApiPublic/api/v1/publication/derniere-publication-fichier-json",
       "role": "Sanctions list",
-      "published_date": "2026-10-02",
-      "fetched_date": "2026-10-03"
+      "published_date": "2026-10-05",
+      "fetched_date": "2026-10-05"
     },
     {
       "id": "ofac",
@@ -20,7 +20,7 @@
       "url": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml",
       "role": "Sanctions list",
       "published_date": null,
-      "fetched_date": "2026-10-03"
+      "fetched_date": "2026-10-05"
     },
     {
       "id": "uk",
@@ -28,7 +28,7 @@
       "url": "https://sanctionslist.fcdo.gov.uk/docs/UK-Sanctions-List.xml",
       "role": "Sanctions list",
       "published_date": "2026-10-02",
-      "fetched_date": "2026-10-03"
+      "fetched_date": "2026-10-05"
     },
     {
       "id": "seco",
@@ -36,15 +36,15 @@
       "url": "https://www.sesam.search.admin.ch/sesam-search-web/pages/downloadXmlGesamtliste.xhtml?lang=de&action=downloadXmlGesamtlisteAction",
       "role": "Sanctions list",
       "published_date": "2026-09-28",
-      "fetched_date": "2026-10-03"
+      "fetched_date": "2026-10-05"
     },
     {
       "id": "un",
       "name": "UN Security Council Consolidated List",
       "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
       "role": "Sanctions list",
-      "published_date": "2026-10-02",
-      "fetched_date": "2026-10-03"
+      "published_date": "2026-10-03",
+      "fetched_date": "2026-10-05"
     },
     {
       "id": "canada",
@@ -52,7 +52,7 @@
       "url": "https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml",
       "role": "Sanctions list",
       "published_date": null,
-      "fetched_date": "2026-10-03"
+      "fetched_date": "2026-10-05"
     },
     {
       "id": "",
@@ -22386,33 +22386,6 @@
       "censys": "https://platform.censys.io/certificates/fb0b0a6a05c873dd6121a3165383ae96fc5039ab22bd6cc11b8482bea2b2e80d",
       "validation": "DV",
       "crl_this_update": "2026-10-05T11:45:35Z",
-      "revocation_checked_at": "2026-10-05T12:26:51Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-10-05T13:29:34Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "LIMITED LIABILITY COMPANY GEOSCAN",
-      "entity_list": "ofac",
-      "entity_list_id": "49273",
-      "listed_on": "2024-06-12",
-      "programs": "RUSSIA-EO14024",
-      "domain": "cdn2.stage.pds-school.geoscan.ru",
-      "listed_domain": "geoscan.ru",
-      "domain_list": "seco",
-      "domain_list_id": "91629",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
-      "entry_type": "certificate",
-      "not_before": "2026-07-07T15:47:19Z",
-      "not_after": "2026-10-05T15:47:18Z",
-      "serial": "51df409c1d99f8b53640483d2d26385ecfa",
-      "sha256": "232dc9dd9c0d19f690f40f5e225d3cc9c16544e5a03f681ec85aca3b11875a35",
-      "crt_sh": "https://crt.sh/?sha256=232dc9dd9c0d19f690f40f5e225d3cc9c16544e5a03f681ec85aca3b11875a35",
-      "censys": "https://platform.censys.io/certificates/232dc9dd9c0d19f690f40f5e225d3cc9c16544e5a03f681ec85aca3b11875a35",
-      "validation": "DV",
-      "crl_this_update": "2026-10-05T12:01:42Z",
       "revocation_checked_at": "2026-10-05T12:26:51Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-10-05T13:29:34Z"
