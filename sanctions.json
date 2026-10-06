@@ -1,7 +1,7 @@
 {
   "format": 2,
-  "generated_at": "2026-10-06T13:54:06Z",
-  "sanctions_lists_read_at": "2026-10-05T15:15:10Z",
+  "generated_at": "2026-10-06T15:53:43Z",
+  "sanctions_lists_read_at": "2026-10-06T15:44:19Z",
   "revocation_checked_at": "2026-10-06T12:22:33Z",
   "crl_issued_min": "2026-10-05T18:10:38Z",
   "crl_issued_max": "2026-10-06T12:10:44Z",
@@ -12,7 +12,7 @@
       "url": "https://gels-avoirs.dgtresor.gouv.fr/ApiPublic/api/v1/publication/derniere-publication-fichier-json",
       "role": "Sanctions list",
       "published_date": "2026-10-05",
-      "fetched_date": "2026-10-05"
+      "fetched_date": "2026-10-06"
     },
     {
       "id": "ofac",
@@ -20,15 +20,15 @@
       "url": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml",
       "role": "Sanctions list",
       "published_date": null,
-      "fetched_date": "2026-10-05"
+      "fetched_date": "2026-10-06"
     },
     {
       "id": "uk",
       "name": "UK Sanctions List (FCDO)",
       "url": "https://sanctionslist.fcdo.gov.uk/docs/UK-Sanctions-List.xml",
       "role": "Sanctions list",
-      "published_date": "2026-10-02",
-      "fetched_date": "2026-10-05"
+      "published_date": "2026-10-06",
+      "fetched_date": "2026-10-06"
     },
     {
       "id": "seco",
@@ -36,15 +36,15 @@
       "url": "https://www.sesam.search.admin.ch/sesam-search-web/pages/downloadXmlGesamtliste.xhtml?lang=de&action=downloadXmlGesamtlisteAction",
       "role": "Sanctions list",
       "published_date": "2026-09-28",
-      "fetched_date": "2026-10-05"
+      "fetched_date": "2026-10-06"
     },
     {
       "id": "un",
       "name": "UN Security Council Consolidated List",
       "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
       "role": "Sanctions list",
-      "published_date": "2026-10-03",
-      "fetched_date": "2026-10-05"
+      "published_date": "2026-10-06",
+      "fetched_date": "2026-10-06"
     },
     {
       "id": "canada",
@@ -52,7 +52,7 @@
       "url": "https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml",
       "role": "Sanctions list",
       "published_date": null,
-      "fetched_date": "2026-10-05"
+      "fetched_date": "2026-10-06"
     },
     {
       "id": "",
@@ -27759,33 +27759,6 @@
       "censys": "https://platform.censys.io/certificates/3a6e7c39c0d7627a09323941c45d4803c0d0c1bf09ef79458d6423f52ae9780d",
       "validation": "DV",
       "crl_this_update": "2026-10-06T12:04:02Z",
-      "revocation_checked_at": "2026-10-06T12:22:33Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-10-06T13:37:34Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "OJSC Scientific Research Institute of Precision Mechanical Engineering",
-      "entity_list": "ofac",
-      "entity_list_id": "38167",
-      "listed_on": "2022-08-02",
-      "programs": "RUSSIA-EO14024",
-      "domain": "niitm.ru",
-      "listed_domain": "niitm.ru",
-      "domain_list": "seco",
-      "domain_list_id": "61782",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
-      "entry_type": "certificate",
-      "not_before": "2026-07-08T15:27:21Z",
-      "not_after": "2026-10-06T15:27:20Z",
-      "serial": "58a0f4c64261a357342804be93b1d63c2d5",
-      "sha256": "c81ef3dc6f2a6fa0b78bff56c4bd83e30f4d6c2602b4e556d6a0d65a26d56939",
-      "crt_sh": "https://crt.sh/?sha256=c81ef3dc6f2a6fa0b78bff56c4bd83e30f4d6c2602b4e556d6a0d65a26d56939",
-      "censys": "https://platform.censys.io/certificates/c81ef3dc6f2a6fa0b78bff56c4bd83e30f4d6c2602b4e556d6a0d65a26d56939",
-      "validation": "DV",
-      "crl_this_update": "2026-10-06T11:39:37Z",
       "revocation_checked_at": "2026-10-06T12:22:33Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-10-06T13:37:34Z"
