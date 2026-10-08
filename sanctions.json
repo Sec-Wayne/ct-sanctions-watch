@@ -1,7 +1,7 @@
 {
   "format": 2,
-  "generated_at": "2026-10-08T09:50:20Z",
-  "sanctions_lists_read_at": "2026-10-06T15:44:19Z",
+  "generated_at": "2026-10-08T11:54:23Z",
+  "sanctions_lists_read_at": "2026-10-08T11:33:15Z",
   "revocation_checked_at": "2026-10-08T08:21:58Z",
   "crl_issued_min": "2026-10-07T19:10:34Z",
   "crl_issued_max": "2026-10-08T08:11:00Z",
@@ -11,8 +11,8 @@
       "name": "EU and French national asset freezes (French Treasury register)",
       "url": "https://gels-avoirs.dgtresor.gouv.fr/ApiPublic/api/v1/publication/derniere-publication-fichier-json",
       "role": "Sanctions list",
-      "published_date": "2026-10-05",
-      "fetched_date": "2026-10-06"
+      "published_date": "2026-10-07",
+      "fetched_date": "2026-10-08"
     },
     {
       "id": "ofac",
@@ -20,31 +20,31 @@
       "url": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml",
       "role": "Sanctions list",
       "published_date": null,
-      "fetched_date": "2026-10-06"
+      "fetched_date": "2026-10-08"
     },
     {
       "id": "uk",
       "name": "UK Sanctions List (FCDO)",
       "url": "https://sanctionslist.fcdo.gov.uk/docs/UK-Sanctions-List.xml",
       "role": "Sanctions list",
-      "published_date": "2026-10-06",
-      "fetched_date": "2026-10-06"
+      "published_date": "2026-10-08",
+      "fetched_date": "2026-10-08"
     },
     {
       "id": "seco",
       "name": "Switzerland SECO sanctions",
       "url": "https://www.sesam.search.admin.ch/sesam-search-web/pages/downloadXmlGesamtliste.xhtml?lang=de&action=downloadXmlGesamtlisteAction",
       "role": "Sanctions list",
-      "published_date": "2026-09-28",
-      "fetched_date": "2026-10-06"
+      "published_date": "2026-10-05",
+      "fetched_date": "2026-10-08"
     },
     {
       "id": "un",
       "name": "UN Security Council Consolidated List",
       "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
       "role": "Sanctions list",
-      "published_date": "2026-10-06",
-      "fetched_date": "2026-10-06"
+      "published_date": "2026-10-07",
+      "fetched_date": "2026-10-08"
     },
     {
       "id": "canada",
@@ -52,7 +52,7 @@
       "url": "https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml",
       "role": "Sanctions list",
       "published_date": null,
-      "fetched_date": "2026-10-06"
+      "fetched_date": "2026-10-08"
     },
     {
       "id": "",
@@ -9021,33 +9021,6 @@
       "censys": "https://platform.censys.io/certificates/a3fca26e4ef7c4d9300b5a87a48303f0b0a3630c284c12dc775bf2cc9dd74650",
       "validation": "DV",
       "crl_this_update": "2026-10-08T07:57:15Z",
-      "revocation_checked_at": "2026-10-08T08:21:58Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-10-08T09:31:59Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "Federal State Financed Institution of Science Physical Higher Education Institution Named After P. N. Lebedeva of the Russian Federation Academy Sciences",
-      "entity_list": "ofac",
-      "entity_list_id": "39143",
-      "listed_on": "2022-09-15",
-      "programs": "RUSSIA-EO14024",
-      "domain": "protonschool-6.lebedev.ru",
-      "listed_domain": "lebedev.ru",
-      "domain_list": "seco",
-      "domain_list_id": "59607",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
-      "entry_type": "certificate",
-      "not_before": "2026-07-10T11:43:45Z",
-      "not_after": "2026-10-08T11:43:44Z",
-      "serial": "5c9e81674316d8f78f9156c650b9f5c54a8",
-      "sha256": "7b1163a7e70b86c688d2be281cbfbce57afdcc3ed8c0ef1f51db72dd68353f20",
-      "crt_sh": "https://crt.sh/?sha256=7b1163a7e70b86c688d2be281cbfbce57afdcc3ed8c0ef1f51db72dd68353f20",
-      "censys": "https://platform.censys.io/certificates/7b1163a7e70b86c688d2be281cbfbce57afdcc3ed8c0ef1f51db72dd68353f20",
-      "validation": "DV",
-      "crl_this_update": "2026-10-08T07:54:06Z",
       "revocation_checked_at": "2026-10-08T08:21:58Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-10-08T09:31:59Z"
