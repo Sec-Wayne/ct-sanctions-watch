@@ -145,7 +145,7 @@
   </header>
   <aside class="times-box" aria-label="Update times">
     <!--STATUS-->
-  <dl class="times"><dt>List refreshed</dt><dd>2026-10-12 08:53</dd><dt>Sanctions lists read</dt><dd>2026-10-08 11:33</dd><dt>Revocation last checked</dt><dd>2026-10-12 08:22</dd><dt>CRLs issued from</dt><dd>2026-10-11 09:25</dd><dt>CRLs issued to</dt><dd>2026-10-12 08:10</dd></dl>
+  <dl class="times"><dt>List refreshed</dt><dd>2026-10-12 09:50</dd><dt>Sanctions lists read</dt><dd>2026-10-08 11:33</dd><dt>Revocation last checked</dt><dd>2026-10-12 08:22</dd><dt>CRLs issued from</dt><dd>2026-10-11 09:25</dd><dt>CRLs issued to</dt><dd>2026-10-12 08:12</dd></dl>
   <p class="hint">All times UTC.</p>
 <!--/STATUS-->
   </aside>
@@ -158,14 +158,14 @@
 </nav>
 <main>
   <section id="domains" aria-label="Certificates"><!--ROWS-->
-    <span id="list-us" class="target"></span><span id="list-eu" class="target"></span><span id="list-uk" class="target"></span>
+    <span id="list-eu" class="target"></span><span id="list-us" class="target"></span><span id="list-uk" class="target"></span>
     <div class="tiles">
       <div class="tile">
         <div class="label">
           Unrevoked certificates
         </div>
         <div class="value">
-          1328
+          1340
         </div>
         <div class="note">
           a precertificate and its certificate count once
@@ -176,7 +176,7 @@
           Listed websites
         </div>
         <div class="value">
-          226
+          228
         </div>
         <div class="note">
           named by a sanctions list or an official page
@@ -187,7 +187,7 @@
           Sanctioned entities
         </div>
         <div class="value">
-          233
+          235
         </div>
         <div class="note">
           with a certificate here
@@ -198,7 +198,7 @@
           Certificate authorities
         </div>
         <div class="value">
-          6
+          7
         </div>
         <div class="note">
           in a country the list covers
@@ -206,10 +206,10 @@
       </div>
     </div>
     <div class="lists">
-      <span class="hint">Sanctions list:</span> <a href="#domains" class="chip all">All</a> <a href="#list-eu" class="chip" style="border-color:#3987e5"><span class="badge" style="background:#3987e5">EU</span> 1 CA, 1 certificate</a> <a href="#list-us" class="chip" style="border-color:#d95926"><span class="badge" style="background:#d95926">US</span> 4 CAs, 1324 certificates</a> <a href="#list-uk" class="chip" style="border-color:#199e70"><span class="badge" style="background:#199e70">UK</span> 1 CA, 3 certificates</a>
+      <span class="hint">Sanctions list:</span> <a href="#domains" class="chip all">All</a> <a href="#list-eu" class="chip" style="border-color:#3987e5"><span class="badge" style="background:#3987e5">EU</span> 2 CAs, 2 certificates</a> <a href="#list-us" class="chip" style="border-color:#d95926"><span class="badge" style="background:#d95926">US</span> 4 CAs, 1335 certificates</a> <a href="#list-uk" class="chip" style="border-color:#199e70"><span class="badge" style="background:#199e70">UK</span> 1 CA, 3 certificates</a>
     </div>
     <h2>By certificate authority</h2>
-    <p class="hint">1328 certificates from 6 CAs. A precertificate and its certificate count once. Choose a CA to see only its certificates. <a href="#domains">Show all CAs</a>.</p>
+    <p class="hint">1340 certificates from 7 CAs. A precertificate and its certificate count once. Choose a CA to see only its certificates. <a href="#domains">Show all CAs</a>.</p>
     <div class="table">
       <table class="breakdown">
         <thead>
@@ -228,6 +228,19 @@
           </tr>
         </thead>
         <tbody>
+          <tr class="list-eu">
+            <td><a href="#ca-asseco-data-systems-s-a-polska">Asseco Data Systems S.A.</a></td>
+            <td class="wide">Polska</td>
+            <td><span class="badge" style="background:#3987e5">EU</span></td>
+            <td class="num">1</td>
+            <td class="chart"><span class="meter" style="width:1%;background:#3987e5"></span></td>
+            <td class="num type">1</td>
+            <td class="num type zero">0</td>
+            <td class="num type zero">0</td>
+            <td class="num type zero">0</td>
+            <td class="num wide">1</td>
+            <td class="num wide">1</td>
+          </tr>
           <tr class="list-us">
             <td><a href="#ca-digicert-united-states-of-america">DigiCert</a></td>
             <td class="wide">United States of America</td>
@@ -277,21 +290,21 @@
             <td class="num type zero">0</td>
             <td class="num type zero">0</td>
             <td class="num type zero">0</td>
-            <td class="num wide">198</td>
-            <td class="num wide">203</td>
+            <td class="num wide">199</td>
+            <td class="num wide">204</td>
           </tr>
           <tr class="list-us">
             <td><a href="#ca-ssl-com-united-states-of-america">SSL.com</a></td>
             <td class="wide">United States of America</td>
             <td><span class="badge" style="background:#d95926">US</span></td>
-            <td class="num">104</td>
-            <td class="chart"><span class="meter" style="width:8%;background:#d95926"></span></td>
-            <td class="num type">104</td>
+            <td class="num">115</td>
+            <td class="chart"><span class="meter" style="width:9%;background:#d95926"></span></td>
+            <td class="num type">115</td>
             <td class="num type zero">0</td>
             <td class="num type zero">0</td>
             <td class="num type zero">0</td>
-            <td class="num wide">17</td>
             <td class="num wide">18</td>
+            <td class="num wide">19</td>
           </tr>
           <tr class="list-uk">
             <td><a href="#ca-sectigo-united-kingdom">Sectigo</a></td>
@@ -312,9 +325,9 @@
             <th>All CAs</th>
             <th class="wide"></th>
             <th></th>
-            <th class="num">1328</th>
+            <th class="num">1340</th>
             <th class="chart"></th>
-            <th class="num type">1328</th>
+            <th class="num type">1340</th>
             <th class="num type">0</th>
             <th class="num type">0</th>
             <th class="num type">0</th>
@@ -324,6 +337,53 @@
         </tfoot>
       </table>
     </div>
+    <section class="ca list-eu" id="ca-asseco-data-systems-s-a-polska" style="border-left-color:#3987e5">
+      <details class="ca-d" open>
+        <summary>
+        <h2>Asseco Data Systems S.A. <span class="badge" style="background:#3987e5">EU</span> <small>Polska · 1 certificate · 1 entity</small></h2>
+        </summary>
+        <details class="ent" open>
+          <summary>
+          <h3>Samane Gostar Sahab Pardaz Private Limited Company</h3>
+          <span class="meta">EU listing from 2023-01-23 · Iran répression</span></summary>
+          <div class="table">
+            <table class="certs">
+              <colgroup>
+                <col class="c-domain">
+                <col class="c-type">
+                <col class="c-date">
+                <col class="c-date">
+                <col class="c-src">
+                <col class="c-ids">
+                <col class="c-links">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>Domain</th>
+                  <th>Type</th>
+                  <th>Valid from</th>
+                  <th>Valid to</th>
+                  <th>Sources</th>
+                  <th>Serial and SHA-256</th>
+                  <th>Certificate</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Domain">my.sahab.ir</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-04-29</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">fr-gels 6356</a><br><span class="k">website</span> <a href="#sources">ofac 39646</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 1d6e1fe9e920f677e4c9233e3aecefc0<br><span class="k">sha256</span> f42a8a7764ddd281eed4758e0a6f889881175ddf009bf3d554c19cb97d8d6a04</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=f42a8a7764ddd281eed4758e0a6f889881175ddf009bf3d554c19cb97d8d6a04" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/f42a8a7764ddd281eed4758e0a6f889881175ddf009bf3d554c19cb97d8d6a04" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+      </details>
+    </section>
     <section class="ca list-us" id="ca-digicert-united-states-of-america" style="border-left-color:#d95926">
       <details class="ca-d" open>
         <summary>
@@ -949,7 +1009,7 @@
     <section class="ca list-us" id="ca-internet-security-research-group-united-states-of-america" style="border-left-color:#d95926">
       <details class="ca-d" open>
         <summary>
-        <h2>Internet Security Research Group <span class="badge" style="background:#d95926">US</span> <small>United States of America · 1201 certificates · 203 entities</small></h2>
+        <h2>Internet Security Research Group <span class="badge" style="background:#d95926">US</span> <small>United States of America · 1201 certificates · 204 entities</small></h2>
         </summary>
         <details class="ent" open>
           <summary>
@@ -8374,15 +8434,6 @@
                   <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 37661</a><br><span class="k">website</span> <a href="#sources">seco 52630</a></td>
                   <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 54ce68b8a83fb69cc16b12a720bdb8823c1<br><span class="k">sha256</span> 6c5fb9333083f2b9921bb02cc8b8feafd72cc2d4d951ec214643222c7a6d096f</td>
                   <td data-label="Certificate"><a href="https://crt.sh/?sha256=6c5fb9333083f2b9921bb02cc8b8feafd72cc2d4d951ec214643222c7a6d096f" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/6c5fb9333083f2b9921bb02cc8b8feafd72cc2d4d951ec214643222c7a6d096f" target="_blank" rel="noopener noreferrer">Censys</a></td>
-                </tr>
-                <tr>
-                  <td data-label="Domain">ww38.pa-strela.com</td>
-                  <td data-label="Type">DV</td>
-                  <td data-label="Valid from" class="nowrap">2026-07-14</td>
-                  <td data-label="Valid to" class="nowrap">2026-10-12</td>
-                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 37661</a><br><span class="k">website</span> <a href="#sources">seco 52630</a></td>
-                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 54399901668d0392b4046e17b10d243c4f7<br><span class="k">sha256</span> d38d26087d9738f74182c373bfa7a0484d9eade5b18fc47e22973137431d3c29</td>
-                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=d38d26087d9738f74182c373bfa7a0484d9eade5b18fc47e22973137431d3c29" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/d38d26087d9738f74182c373bfa7a0484d9eade5b18fc47e22973137431d3c29" target="_blank" rel="noopener noreferrer">Censys</a></td>
                 </tr>
               </tbody>
             </table>
@@ -18512,12 +18563,52 @@
             </table>
           </div>
         </details>
+        <details class="ent" open>
+          <summary>
+          <h3>Zelenodolsk Shipyard Plant named after A.M. Gorky</h3>
+          <span class="meta">US listing from 2019-03-15 · UKRAINE-EO13662</span></summary>
+          <div class="table">
+            <table class="certs">
+              <colgroup>
+                <col class="c-domain">
+                <col class="c-type">
+                <col class="c-date">
+                <col class="c-date">
+                <col class="c-src">
+                <col class="c-ids">
+                <col class="c-links">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>Domain</th>
+                  <th>Type</th>
+                  <th>Valid from</th>
+                  <th>Valid to</th>
+                  <th>Sources</th>
+                  <th>Serial and SHA-256</th>
+                  <th>Certificate</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Domain">zdship.ru</td>
+                  <td data-label="Type">DV<br><small>precert, cert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-10</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 26510</a><br><span class="k">website</span> <a href="#sources">seco 64194</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 06364baa37a08a1d34fec5d0bea5484ad70d<br><span class="k">sha256</span> 6d18b7009a370894a4e0982a62edc22d6eff661fc2a2834fe10dede3f58208b6<br><span class="k">sha256</span> 768b584bca681d2792238af9d67be7637c7613b0030b5e5ee9328a3fad14b1a4</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=6d18b7009a370894a4e0982a62edc22d6eff661fc2a2834fe10dede3f58208b6" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/6d18b7009a370894a4e0982a62edc22d6eff661fc2a2834fe10dede3f58208b6" target="_blank" rel="noopener noreferrer">Censys</a><br><a href="https://crt.sh/?sha256=768b584bca681d2792238af9d67be7637c7613b0030b5e5ee9328a3fad14b1a4" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/768b584bca681d2792238af9d67be7637c7613b0030b5e5ee9328a3fad14b1a4" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
       </details>
     </section>
     <section class="ca list-us" id="ca-ssl-com-united-states-of-america" style="border-left-color:#d95926">
       <details class="ca-d" open>
         <summary>
-        <h2>SSL.com <span class="badge" style="background:#d95926">US</span> <small>United States of America · 104 certificates · 18 entities</small></h2>
+        <h2>SSL.com <span class="badge" style="background:#d95926">US</span> <small>United States of America · 115 certificates · 19 entities</small></h2>
         </summary>
         <details class="ent" open>
           <summary>
@@ -20017,6 +20108,136 @@
                   <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 38196</a><br><span class="k">website</span> <a href="#sources">seco 61842</a></td>
                   <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 75af6304e31a3f4463bd2880f809d7ca<br><span class="k">sha256</span> cde930da3b7c3eef3da6b24fbb575c822a4f3d375d651699f3e2ff3f994269b2</td>
                   <td data-label="Certificate"><a href="https://crt.sh/?sha256=cde930da3b7c3eef3da6b24fbb575c822a4f3d375d651699f3e2ff3f994269b2" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/cde930da3b7c3eef3da6b24fbb575c822a4f3d375d651699f3e2ff3f994269b2" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+        <details class="ent" open>
+          <summary>
+          <h3>Skolkovo Institute of Science and Technology</h3>
+          <span class="meta">US listing from 2022-08-02 · RUSSIA-EO14024</span></summary>
+          <div class="table">
+            <table class="certs">
+              <colgroup>
+                <col class="c-domain">
+                <col class="c-type">
+                <col class="c-date">
+                <col class="c-date">
+                <col class="c-src">
+                <col class="c-ids">
+                <col class="c-links">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>Domain</th>
+                  <th>Type</th>
+                  <th>Valid from</th>
+                  <th>Valid to</th>
+                  <th>Sources</th>
+                  <th>Serial and SHA-256</th>
+                  <th>Certificate</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Domain">forms.skoltech.ru</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-10</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 38222</a><br><span class="k">website</span> <a href="#sources">seco 61845</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 35d42bef9d1066c667007bb7f0b6c5f2<br><span class="k">sha256</span> c64a424959587f041b91d09d60315adc214ad54a59c285d10cf9f2f6ba33e81c</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=c64a424959587f041b91d09d60315adc214ad54a59c285d10cf9f2f6ba33e81c" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/c64a424959587f041b91d09d60315adc214ad54a59c285d10cf9f2f6ba33e81c" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+                <tr>
+                  <td data-label="Domain">forms.skoltech.ru</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-10</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 38222</a><br><span class="k">website</span> <a href="#sources">seco 61845</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 14f21d9b982401975a518aace40e0464<br><span class="k">sha256</span> d2d4788062ad60aeed2194119e9906343a6dc24f58ee45983ead4cbc766d64b0</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=d2d4788062ad60aeed2194119e9906343a6dc24f58ee45983ead4cbc766d64b0" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/d2d4788062ad60aeed2194119e9906343a6dc24f58ee45983ead4cbc766d64b0" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+                <tr>
+                  <td data-label="Domain">join.skoltech.ru</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-10</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 38222</a><br><span class="k">website</span> <a href="#sources">seco 61845</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 6b000d9bb4a7342c30396471fe32e171<br><span class="k">sha256</span> eac833af60a2937ed0bb94609670343e2eb98d401716b02ebf49acf9d914f2b7</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=eac833af60a2937ed0bb94609670343e2eb98d401716b02ebf49acf9d914f2b7" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/eac833af60a2937ed0bb94609670343e2eb98d401716b02ebf49acf9d914f2b7" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+                <tr>
+                  <td data-label="Domain">join.skoltech.ru</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-10</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 38222</a><br><span class="k">website</span> <a href="#sources">seco 61845</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 6c5899f26d9b9f37f90b4189111f81c2<br><span class="k">sha256</span> f1b7dc978c2ddac2d9663ef8c86f045a0140b2a4b1cc83e22a1d2299bdf1eece</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=f1b7dc978c2ddac2d9663ef8c86f045a0140b2a4b1cc83e22a1d2299bdf1eece" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/f1b7dc978c2ddac2d9663ef8c86f045a0140b2a4b1cc83e22a1d2299bdf1eece" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+                <tr>
+                  <td data-label="Domain">lms.skoltech.ru</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-10</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 38222</a><br><span class="k">website</span> <a href="#sources">seco 61845</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 0a05f1760039261b66f68b1c3f9375c9<br><span class="k">sha256</span> ee40a9af1bf10eb4d82a85ce36d7db2064049678d29c874509ae637e0d3d6dd2</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=ee40a9af1bf10eb4d82a85ce36d7db2064049678d29c874509ae637e0d3d6dd2" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/ee40a9af1bf10eb4d82a85ce36d7db2064049678d29c874509ae637e0d3d6dd2" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+                <tr>
+                  <td data-label="Domain">skoltech.ru</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-09</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 38222</a><br><span class="k">website</span> <a href="#sources">seco 61845</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 0835c136f0b515cd71f2b981e4582fbc<br><span class="k">sha256</span> 21d5e4656698dbf7c8217d19b7927089ec476fa6a5c2e8b7f3d2370a64d1479d</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=21d5e4656698dbf7c8217d19b7927089ec476fa6a5c2e8b7f3d2370a64d1479d" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/21d5e4656698dbf7c8217d19b7927089ec476fa6a5c2e8b7f3d2370a64d1479d" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+                <tr>
+                  <td data-label="Domain">skoltech.ru</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-10</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 38222</a><br><span class="k">website</span> <a href="#sources">seco 61845</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 5b4e05cadab59ea88f8c48171fdc59c6<br><span class="k">sha256</span> 233d463633adb2da482721bf8bf5f52aa91bb2f3650acbffa386b63b430b3fc9</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=233d463633adb2da482721bf8bf5f52aa91bb2f3650acbffa386b63b430b3fc9" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/233d463633adb2da482721bf8bf5f52aa91bb2f3650acbffa386b63b430b3fc9" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+                <tr>
+                  <td data-label="Domain">skoltech.ru</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-10</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 38222</a><br><span class="k">website</span> <a href="#sources">seco 61845</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 0131f9b3afa5604569b538b69118792a<br><span class="k">sha256</span> 2f52b6328fdecc792f7c2a1e375bee9628532fd6746371c18e19b4e75ecab63b</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=2f52b6328fdecc792f7c2a1e375bee9628532fd6746371c18e19b4e75ecab63b" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/2f52b6328fdecc792f7c2a1e375bee9628532fd6746371c18e19b4e75ecab63b" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+                <tr>
+                  <td data-label="Domain">skoltech.ru</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-10</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 38222</a><br><span class="k">website</span> <a href="#sources">seco 61845</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 3cdb939be63244630d3ae9a00e270379<br><span class="k">sha256</span> 5943c675782731406956ef5a12d4ec10846fe0f8d53b6eb5fb43069b1cb06e7b</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=5943c675782731406956ef5a12d4ec10846fe0f8d53b6eb5fb43069b1cb06e7b" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/5943c675782731406956ef5a12d4ec10846fe0f8d53b6eb5fb43069b1cb06e7b" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+                <tr>
+                  <td data-label="Domain">skoltech.ru</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-10</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 38222</a><br><span class="k">website</span> <a href="#sources">seco 61845</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 7089bba1116119ab83afa9ea3e6ffe72<br><span class="k">sha256</span> 71a1a1844dfbffd3f6234c1922238febd53a35a52108ed6229621582754110a1</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=71a1a1844dfbffd3f6234c1922238febd53a35a52108ed6229621582754110a1" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/71a1a1844dfbffd3f6234c1922238febd53a35a52108ed6229621582754110a1" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+                <tr>
+                  <td data-label="Domain">skoltech.ru</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-12</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-10</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 38222</a><br><span class="k">website</span> <a href="#sources">seco 61845</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 7d8d098a1cdebd6f794aafcee9801fa3<br><span class="k">sha256</span> e134afa9f9feff8784a3ff28874578b52901c53b4941b4aa03a1aad587b78fa9</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=e134afa9f9feff8784a3ff28874578b52901c53b4941b4aa03a1aad587b78fa9" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/e134afa9f9feff8784a3ff28874578b52901c53b4941b4aa03a1aad587b78fa9" target="_blank" rel="noopener noreferrer">Censys</a></td>
                 </tr>
               </tbody>
             </table>
