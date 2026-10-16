@@ -27,10 +27,10 @@ All times are UTC.
 
 <!--STATUS-->
 
-- List refreshed: 2026-10-16T17:53:37Z
+- List refreshed: 2026-10-16T20:54:16Z
 - Sanctions lists read: 2026-10-08T11:33:15Z
-- Revocation last checked: 2026-10-16T16:24:52Z
-- CRLs read were issued between 2026-10-15T18:49:54Z and 2026-10-16T16:13:49Z
+- Revocation last checked: 2026-10-16T20:23:32Z
+- CRLs read were issued between 2026-10-16T03:49:39Z and 2026-10-16T20:12:55Z
 
 <!--/STATUS-->
 
@@ -91,7 +91,7 @@ publisher's date. Fetched is when the file was read.
 | `seco` | [Switzerland SECO sanctions](https://www.sesam.search.admin.ch/sesam-search-web/pages/downloadXmlGesamtliste.xhtml?lang=de&action=downloadXmlGesamtlisteAction) | Sanctions list | 2026-10-05 | 2026-10-08 |
 | `un` | [UN Security Council Consolidated List](https://scsanctions.un.org/resources/xml/en/consolidated.xml) | Sanctions list | 2026-10-07 | 2026-10-08 |
 | `canada` | [Canada Consolidated Autonomous Sanctions List](https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml) | Sanctions list | none | 2026-10-08 |
-|  | [CCADB](https://www.ccadb.org/resources) | CA operator and country | none | 2026-10-15 |
+|  | [CCADB](https://www.ccadb.org/resources) | CA operator and country | none | 2026-10-16 |
 |  | Certificate Transparency logs | Certificates and their DNS names, read continuously | none | 2026-10-16 |
 |  | Issuer CRLs | Revocation | none | 2026-10-16 |
 |  | OCSP | Revocation, where the certificate names a responder | none | 2026-10-16 |
