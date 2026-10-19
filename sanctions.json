@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "generated_at": "2026-10-18T21:54:23Z",
+  "generated_at": "2026-10-19T05:29:39Z",
   "sanctions_lists_read_at": "2026-10-17T11:58:29Z",
   "revocation_checked_at": "2026-10-18T20:21:48Z",
   "crl_issued_min": "2026-10-18T02:49:39Z",
@@ -68,7 +68,7 @@
       "url": "",
       "role": "Certificates and their DNS names, read continuously",
       "published_date": null,
-      "fetched_date": "2026-10-18"
+      "fetched_date": "2026-10-19"
     },
     {
       "id": "",
@@ -29514,33 +29514,6 @@
       "censys": "https://platform.censys.io/certificates/6abb806da2863406323ee12fc18a2abcc2c9b46ee388068efa939e249d6cfeb1",
       "validation": "DV",
       "crl_this_update": "2026-10-18T20:03:42Z",
-      "revocation_checked_at": "2026-10-18T20:21:48Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-10-18T21:37:14Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "Scientific Industrial Company Dipaul Private Joint Stock Company",
-      "entity_list": "ofac",
-      "entity_list_id": "45029",
-      "listed_on": "2023-09-14",
-      "programs": "RUSSIA-EO14024",
-      "domain": "ipc600.dipaul.ru",
-      "listed_domain": "dipaul.ru",
-      "domain_list": "seco",
-      "domain_list_id": "91578",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
-      "entry_type": "certificate",
-      "not_before": "2026-07-21T04:40:23Z",
-      "not_after": "2026-10-19T04:40:22Z",
-      "serial": "59223216da712d541efb2f3795d77ecc385",
-      "sha256": "4895a121c58889d680339b2fa63e72e8514babbf4b6ee5f507e66add6a422e32",
-      "crt_sh": "https://crt.sh/?sha256=4895a121c58889d680339b2fa63e72e8514babbf4b6ee5f507e66add6a422e32",
-      "censys": "https://platform.censys.io/certificates/4895a121c58889d680339b2fa63e72e8514babbf4b6ee5f507e66add6a422e32",
-      "validation": "DV",
-      "crl_this_update": "2026-10-18T20:06:00Z",
       "revocation_checked_at": "2026-10-18T20:21:48Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-10-18T21:37:14Z"
