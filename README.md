@@ -27,7 +27,7 @@ All times are UTC.
 
 <!--STATUS-->
 
-- List refreshed: 2026-10-19T05:29:39Z
+- List refreshed: 2026-10-19T05:50:32Z
 - Sanctions lists read: 2026-10-17T11:58:29Z
 - Revocation last checked: 2026-10-18T20:21:48Z
 - CRLs read were issued between 2026-10-18T02:49:39Z and 2026-10-18T20:11:19Z
@@ -94,6 +94,6 @@ publisher's date. Fetched is when the file was read.
 |  | [CCADB](https://www.ccadb.org/resources) | CA operator and country | none | 2026-10-18 |
 |  | Certificate Transparency logs | Certificates and their DNS names, read continuously | none | 2026-10-19 |
 |  | Issuer CRLs | Revocation | none | 2026-10-18 |
-|  | OCSP | Revocation, where the certificate names a responder | none | 2026-10-18 |
+|  | OCSP | Revocation, where the certificate names a responder | none | 2026-10-19 |
 
 <!--/SOURCES-->
