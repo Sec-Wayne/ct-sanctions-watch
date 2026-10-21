@@ -27,10 +27,10 @@ All times are UTC.
 
 <!--STATUS-->
 
-- List refreshed: 2026-10-21T17:54:36Z
-- Sanctions lists read: 2026-10-20T19:35:08Z
-- Revocation last checked: 2026-10-21T16:22:10Z
-- CRLs read were issued between 2026-10-20T17:50:17Z and 2026-10-21T16:11:12Z
+- List refreshed: 2026-10-21T20:54:14Z
+- Sanctions lists read: 2026-10-21T17:29:02Z
+- Revocation last checked: 2026-10-21T20:28:38Z
+- CRLs read were issued between 2026-10-21T01:49:40Z and 2026-10-21T20:13:07Z
 
 <!--/STATUS-->
 
@@ -85,13 +85,13 @@ publisher's date. Fetched is when the file was read.
 
 | ID | Source | Use | Published | Fetched |
 |---|---|---|---|---|
-| `fr-gels` | [EU and French national asset freezes (French Treasury register)](https://gels-avoirs.dgtresor.gouv.fr/ApiPublic/api/v1/publication/derniere-publication-fichier-json) | Sanctions list | 2026-10-20 | 2026-10-20 |
-| `ofac` | [US OFAC Specially Designated Nationals](https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml) | Sanctions list | none | 2026-10-20 |
-| `uk` | [UK Sanctions List (FCDO)](https://sanctionslist.fcdo.gov.uk/docs/UK-Sanctions-List.xml) | Sanctions list | 2026-10-16 | 2026-10-20 |
-| `seco` | [Switzerland SECO sanctions](https://www.sesam.search.admin.ch/sesam-search-web/pages/downloadXmlGesamtliste.xhtml?lang=de&action=downloadXmlGesamtlisteAction) | Sanctions list | 2026-10-20 | 2026-10-20 |
-| `un` | [UN Security Council Consolidated List](https://scsanctions.un.org/resources/xml/en/consolidated.xml) | Sanctions list | 2026-10-19 | 2026-10-20 |
-| `canada` | [Canada Consolidated Autonomous Sanctions List](https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml) | Sanctions list | none | 2026-10-20 |
-|  | [CCADB](https://www.ccadb.org/resources) | CA operator and country | none | 2026-10-20 |
+| `fr-gels` | [EU and French national asset freezes (French Treasury register)](https://gels-avoirs.dgtresor.gouv.fr/ApiPublic/api/v1/publication/derniere-publication-fichier-json) | Sanctions list | 2026-10-20 | 2026-10-21 |
+| `ofac` | [US OFAC Specially Designated Nationals](https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml) | Sanctions list | none | 2026-10-21 |
+| `uk` | [UK Sanctions List (FCDO)](https://sanctionslist.fcdo.gov.uk/docs/UK-Sanctions-List.xml) | Sanctions list | 2026-10-16 | 2026-10-21 |
+| `seco` | [Switzerland SECO sanctions](https://www.sesam.search.admin.ch/sesam-search-web/pages/downloadXmlGesamtliste.xhtml?lang=de&action=downloadXmlGesamtlisteAction) | Sanctions list | 2026-10-20 | 2026-10-21 |
+| `un` | [UN Security Council Consolidated List](https://scsanctions.un.org/resources/xml/en/consolidated.xml) | Sanctions list | 2026-10-20 | 2026-10-21 |
+| `canada` | [Canada Consolidated Autonomous Sanctions List](https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml) | Sanctions list | none | 2026-10-21 |
+|  | [CCADB](https://www.ccadb.org/resources) | CA operator and country | none | 2026-10-21 |
 |  | Certificate Transparency logs | Certificates and their DNS names, read continuously | none | 2026-10-21 |
 |  | Issuer CRLs | Revocation | none | 2026-10-21 |
 |  | OCSP | Revocation, where the certificate names a responder | none | 2026-10-21 |
