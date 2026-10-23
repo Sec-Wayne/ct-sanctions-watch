@@ -145,7 +145,7 @@
   </header>
   <aside class="times-box" aria-label="Update times">
     <!--STATUS-->
-  <dl class="times"><dt>List refreshed</dt><dd>2026-10-23 01:51</dd><dt>Sanctions lists read</dt><dd>2026-10-22 15:21</dd><dt>Revocation last checked</dt><dd>2026-10-23 00:24</dd><dt>CRLs issued from</dt><dd>2026-10-22 01:19</dd><dt>CRLs issued to</dt><dd>2026-10-23 00:13</dd></dl>
+  <dl class="times"><dt>List refreshed</dt><dd>2026-10-23 05:51</dd><dt>Sanctions lists read</dt><dd>2026-10-22 15:21</dd><dt>Revocation last checked</dt><dd>2026-10-23 04:20</dd><dt>CRLs issued from</dt><dd>2026-10-22 07:43</dd><dt>CRLs issued to</dt><dd>2026-10-23 04:11</dd></dl>
   <p class="hint">All times UTC.</p>
 <!--/STATUS-->
   </aside>
@@ -158,14 +158,14 @@
 </nav>
 <main>
   <section id="domains" aria-label="Certificates"><!--ROWS-->
-    <span id="list-us" class="target"></span><span id="list-eu" class="target"></span><span id="list-uk" class="target"></span>
+    <span id="list-eu" class="target"></span><span id="list-us" class="target"></span><span id="list-uk" class="target"></span>
     <div class="tiles">
       <div class="tile">
         <div class="label">
           Unrevoked certificates
         </div>
         <div class="value">
-          1341
+          1343
         </div>
         <div class="note">
           a precertificate and its certificate count once
@@ -187,7 +187,7 @@
           Sanctioned entities
         </div>
         <div class="value">
-          263
+          264
         </div>
         <div class="note">
           with a certificate here
@@ -198,7 +198,7 @@
           Certificate authorities
         </div>
         <div class="value">
-          8
+          9
         </div>
         <div class="note">
           in a country the list covers
@@ -206,10 +206,10 @@
       </div>
     </div>
     <div class="lists">
-      <span class="hint">Sanctions list:</span> <a href="#domains" class="chip all">All</a> <a href="#list-eu" class="chip" style="border-color:#3987e5"><span class="badge" style="background:#3987e5">EU</span> 2 CAs, 17 certificates</a> <a href="#list-us" class="chip" style="border-color:#d95926"><span class="badge" style="background:#d95926">US</span> 5 CAs, 1290 certificates</a> <a href="#list-uk" class="chip" style="border-color:#199e70"><span class="badge" style="background:#199e70">UK</span> 1 CA, 34 certificates</a>
+      <span class="hint">Sanctions list:</span> <a href="#domains" class="chip all">All</a> <a href="#list-eu" class="chip" style="border-color:#3987e5"><span class="badge" style="background:#3987e5">EU</span> 3 CAs, 18 certificates</a> <a href="#list-us" class="chip" style="border-color:#d95926"><span class="badge" style="background:#d95926">US</span> 5 CAs, 1291 certificates</a> <a href="#list-uk" class="chip" style="border-color:#199e70"><span class="badge" style="background:#199e70">UK</span> 1 CA, 34 certificates</a>
     </div>
     <h2>By certificate authority</h2>
-    <p class="hint">1341 certificates from 8 CAs. A precertificate and its certificate count once. Choose a CA to see only its certificates. <a href="#domains">Show all CAs</a>.</p>
+    <p class="hint">1343 certificates from 9 CAs. A precertificate and its certificate count once. Choose a CA to see only its certificates. <a href="#domains">Show all CAs</a>.</p>
     <div class="table">
       <table class="breakdown">
         <thead>
@@ -228,6 +228,19 @@
           </tr>
         </thead>
         <tbody>
+          <tr class="list-eu">
+            <td><a href="#ca-actalis-italy">Actalis</a></td>
+            <td class="wide">Italy</td>
+            <td><span class="badge" style="background:#3987e5">EU</span></td>
+            <td class="num">1</td>
+            <td class="chart"><span class="meter" style="width:1%;background:#3987e5"></span></td>
+            <td class="num type">1</td>
+            <td class="num type zero">0</td>
+            <td class="num type zero">0</td>
+            <td class="num type zero">0</td>
+            <td class="num wide">1</td>
+            <td class="num wide">1</td>
+          </tr>
           <tr class="list-us">
             <td><a href="#ca-digicert-united-states-of-america">DigiCert</a></td>
             <td class="wide">United States of America</td>
@@ -297,9 +310,9 @@
             <td><a href="#ca-internet-security-research-group-united-states-of-america">Internet Security Research Group</a></td>
             <td class="wide">United States of America</td>
             <td><span class="badge" style="background:#d95926">US</span></td>
-            <td class="num">1008</td>
+            <td class="num">1009</td>
             <td class="chart"><span class="meter" style="width:100%;background:#d95926"></span></td>
-            <td class="num type">1008</td>
+            <td class="num type">1009</td>
             <td class="num type zero">0</td>
             <td class="num type zero">0</td>
             <td class="num type zero">0</td>
@@ -338,9 +351,9 @@
             <th>All CAs</th>
             <th class="wide"></th>
             <th></th>
-            <th class="num">1341</th>
+            <th class="num">1343</th>
             <th class="chart"></th>
-            <th class="num type">1341</th>
+            <th class="num type">1343</th>
             <th class="num type">0</th>
             <th class="num type">0</th>
             <th class="num type">0</th>
@@ -350,6 +363,53 @@
         </tfoot>
       </table>
     </div>
+    <section class="ca list-eu" id="ca-actalis-italy" style="border-left-color:#3987e5">
+      <details class="ca-d" open>
+        <summary>
+        <h2>Actalis <span class="badge" style="background:#3987e5">EU</span> <small>Italy · 1 certificate · 1 entity</small></h2>
+        </summary>
+        <details class="ent" open>
+          <summary>
+          <h3>PJSC Chelindbank</h3>
+          <span class="meta">EU listing from 2026-07-23 · Ukraine intégrité territoriale</span></summary>
+          <div class="table">
+            <table class="certs">
+              <colgroup>
+                <col class="c-domain">
+                <col class="c-type">
+                <col class="c-date">
+                <col class="c-date">
+                <col class="c-src">
+                <col class="c-ids">
+                <col class="c-links">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>Domain</th>
+                  <th>Type</th>
+                  <th>Valid from</th>
+                  <th>Valid to</th>
+                  <th>Sources</th>
+                  <th>Serial and SHA-256</th>
+                  <th>Certificate</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Domain">mtrx.chelind.ru</td>
+                  <td data-label="Type">DV<br><small>precert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-23</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-23</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">fr-gels 9296</a><br><span class="k">website</span> same entry</td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 70b5504a49e19d0225b3a9f17fd1bb21<br><span class="k">sha256</span> 4c4e3aa11b707ab1bb2f79f870b55f7a0c54c392eb4bffc0860687dd7870bda9</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=4c4e3aa11b707ab1bb2f79f870b55f7a0c54c392eb4bffc0860687dd7870bda9" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/4c4e3aa11b707ab1bb2f79f870b55f7a0c54c392eb4bffc0860687dd7870bda9" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+      </details>
+    </section>
     <section class="ca list-us" id="ca-digicert-united-states-of-america" style="border-left-color:#d95926">
       <details class="ca-d" open>
         <summary>
@@ -1862,7 +1922,7 @@
     <section class="ca list-us" id="ca-internet-security-research-group-united-states-of-america" style="border-left-color:#d95926">
       <details class="ca-d" open>
         <summary>
-        <h2>Internet Security Research Group <span class="badge" style="background:#d95926">US</span> <small>United States of America · 1008 certificates · 204 entities</small></h2>
+        <h2>Internet Security Research Group <span class="badge" style="background:#d95926">US</span> <small>United States of America · 1009 certificates · 204 entities</small></h2>
         </summary>
         <details class="ent" open>
           <summary>
@@ -13691,6 +13751,15 @@
                   <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 46659</a><br><span class="k">website</span> <a href="#sources">fr-gels 11596</a></td>
                   <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 0694d403a235fb934ee76c54d2561a41d03f<br><span class="k">sha256</span> 9905b0fb6ca3cd808cdbda5ca84f2c159d9800c10371f6c2e535de7602053fbf<br><span class="k">sha256</span> b935501cd0d0dd0b0f352304ae4e67bfe7cff6df5e2f34565b8545e29ea93c1a</td>
                   <td data-label="Certificate"><a href="https://crt.sh/?sha256=9905b0fb6ca3cd808cdbda5ca84f2c159d9800c10371f6c2e535de7602053fbf" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/9905b0fb6ca3cd808cdbda5ca84f2c159d9800c10371f6c2e535de7602053fbf" target="_blank" rel="noopener noreferrer">Censys</a><br><a href="https://crt.sh/?sha256=b935501cd0d0dd0b0f352304ae4e67bfe7cff6df5e2f34565b8545e29ea93c1a" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/b935501cd0d0dd0b0f352304ae4e67bfe7cff6df5e2f34565b8545e29ea93c1a" target="_blank" rel="noopener noreferrer">Censys</a></td>
+                </tr>
+                <tr>
+                  <td data-label="Domain">rikor-electronics.ru</td>
+                  <td data-label="Type">DV<br><small>precert, cert</small></td>
+                  <td data-label="Valid from" class="nowrap">2026-10-22</td>
+                  <td data-label="Valid to" class="nowrap">2027-01-20</td>
+                  <td data-label="Sources" class="src"><span class="k">listed</span> <a href="#sources">ofac 46659</a><br><span class="k">website</span> <a href="#sources">fr-gels 11596</a></td>
+                  <td data-label="Serial and SHA-256" class="hash"><span class="k">serial</span> 05b2f6aaff87b3ea014a342813f399004fd5<br><span class="k">sha256</span> 92ad4e22273ffe434440be7d9a1e76ad264cb45582e2c4862580e9c7b544f7fc<br><span class="k">sha256</span> c18d348c587bbc90e193e87652873734040f6e839c306b68f36e74f489b686bf</td>
+                  <td data-label="Certificate"><a href="https://crt.sh/?sha256=92ad4e22273ffe434440be7d9a1e76ad264cb45582e2c4862580e9c7b544f7fc" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/92ad4e22273ffe434440be7d9a1e76ad264cb45582e2c4862580e9c7b544f7fc" target="_blank" rel="noopener noreferrer">Censys</a><br><a href="https://crt.sh/?sha256=c18d348c587bbc90e193e87652873734040f6e839c306b68f36e74f489b686bf" target="_blank" rel="noopener noreferrer">crt.sh</a> · <a href="https://platform.censys.io/certificates/c18d348c587bbc90e193e87652873734040f6e839c306b68f36e74f489b686bf" target="_blank" rel="noopener noreferrer">Censys</a></td>
                 </tr>
               </tbody>
             </table>
