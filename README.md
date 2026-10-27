@@ -27,7 +27,7 @@ All times are UTC.
 
 <!--STATUS-->
 
-- List refreshed: 2026-10-27T05:53:00Z
+- List refreshed: 2026-10-27T06:54:52Z
 - Sanctions lists read: 2026-10-23T09:50:20Z
 - Revocation last checked: 2026-10-27T04:24:45Z
 - CRLs read were issued between 2026-10-26T08:09:19Z and 2026-10-27T04:13:59Z
