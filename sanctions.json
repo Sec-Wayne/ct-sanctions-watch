@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "generated_at": "2026-10-29T17:51:59Z",
+  "generated_at": "2026-10-29T20:54:25Z",
   "sanctions_lists_read_at": "2026-10-29T16:07:17Z",
   "revocation_checked_at": "2026-10-29T16:22:43Z",
   "crl_issued_min": "2026-10-28T15:50:05Z",
@@ -60,7 +60,7 @@
       "url": "https://www.ccadb.org/resources",
       "role": "CA operator and country",
       "published_date": null,
-      "fetched_date": "2026-10-28"
+      "fetched_date": "2026-10-29"
     },
     {
       "id": "",
@@ -5484,33 +5484,6 @@
       "censys": "https://platform.censys.io/certificates/186a65d4c25a78398696fc247b61023f2841c8c849f4afd9ab5e76cb17584d23",
       "validation": "DV",
       "crl_this_update": "2026-10-29T16:01:46Z",
-      "revocation_checked_at": "2026-10-29T16:22:43Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-10-29T17:22:24Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "Central Institute of Aviation Motors",
-      "entity_list": "ofac",
-      "entity_list_id": "45691",
-      "listed_on": "2023-11-02",
-      "programs": "RUSSIA-EO14024",
-      "domain": "express.ciam.ru",
-      "listed_domain": "ciam.ru",
-      "domain_list": "seco",
-      "domain_list_id": "59469",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
-      "entry_type": "certificate",
-      "not_before": "2026-07-31T20:01:49Z",
-      "not_after": "2026-10-29T20:01:48Z",
-      "serial": "6ba4e709d3578df6cefcae9068c604d4c31",
-      "sha256": "36a12df71c3220ffc427e556722e5f2d7c29779b5e5a36e617c66087b96b1760",
-      "crt_sh": "https://crt.sh/?sha256=36a12df71c3220ffc427e556722e5f2d7c29779b5e5a36e617c66087b96b1760",
-      "censys": "https://platform.censys.io/certificates/36a12df71c3220ffc427e556722e5f2d7c29779b5e5a36e617c66087b96b1760",
-      "validation": "DV",
-      "crl_this_update": "2026-10-29T16:05:12Z",
       "revocation_checked_at": "2026-10-29T16:22:43Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-10-29T17:22:24Z"
