@@ -1,7 +1,7 @@
 {
   "format": 2,
-  "generated_at": "2026-11-06T13:54:16Z",
-  "sanctions_lists_read_at": "2026-11-05T16:05:53Z",
+  "generated_at": "2026-11-06T14:51:35Z",
+  "sanctions_lists_read_at": "2026-11-06T13:57:36Z",
   "revocation_checked_at": "2026-11-06T12:23:57Z",
   "crl_issued_min": "2026-11-05T14:20:32Z",
   "crl_issued_max": "2026-11-06T12:13:04Z",
@@ -12,7 +12,7 @@
       "url": "https://gels-avoirs.dgtresor.gouv.fr/ApiPublic/api/v1/publication/derniere-publication-fichier-json",
       "role": "Sanctions list",
       "published_date": "2026-11-05",
-      "fetched_date": "2026-11-05"
+      "fetched_date": "2026-11-06"
     },
     {
       "id": "ofac",
@@ -20,7 +20,7 @@
       "url": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml",
       "role": "Sanctions list",
       "published_date": null,
-      "fetched_date": "2026-11-05"
+      "fetched_date": "2026-11-06"
     },
     {
       "id": "uk",
@@ -28,7 +28,7 @@
       "url": "https://sanctionslist.fcdo.gov.uk/docs/UK-Sanctions-List.xml",
       "role": "Sanctions list",
       "published_date": "2026-11-03",
-      "fetched_date": "2026-11-05"
+      "fetched_date": "2026-11-06"
     },
     {
       "id": "seco",
@@ -36,15 +36,15 @@
       "url": "https://www.sesam.search.admin.ch/sesam-search-web/pages/downloadXmlGesamtliste.xhtml?lang=de&action=downloadXmlGesamtlisteAction",
       "role": "Sanctions list",
       "published_date": "2026-11-04",
-      "fetched_date": "2026-11-05"
+      "fetched_date": "2026-11-06"
     },
     {
       "id": "un",
       "name": "UN Security Council Consolidated List",
       "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
       "role": "Sanctions list",
-      "published_date": "2026-11-05",
-      "fetched_date": "2026-11-05"
+      "published_date": "2026-11-06",
+      "fetched_date": "2026-11-06"
     },
     {
       "id": "canada",
@@ -52,7 +52,7 @@
       "url": "https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml",
       "role": "Sanctions list",
       "published_date": null,
-      "fetched_date": "2026-11-05"
+      "fetched_date": "2026-11-06"
     },
     {
       "id": "",
@@ -20754,9 +20754,9 @@
       "programs": "RUSSIA-EO14024",
       "domain": "krylov-centre.ru",
       "listed_domain": "krylov-centre.ru",
-      "domain_list": "seco",
-      "domain_list_id": "59817",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
+      "domain_list": "fr-gels",
+      "domain_list_id": "12019",
+      "domain_source_url": "https://gels-avoirs.dgtresor.gouv.fr/ApiPublic/api/v1/publication/derniere-publication-fichier-json",
       "entry_type": "certificate",
       "not_before": "2026-08-14T12:54:59Z",
       "not_after": "2026-11-12T12:54:58Z",
@@ -28461,33 +28461,6 @@
       "censys": "https://platform.censys.io/certificates/c6c64d2ce7d488669a91a6a076fc28b7c815654677c2230590396e41848fffb2",
       "validation": "DV",
       "crl_this_update": "2026-11-06T12:00:13Z",
-      "revocation_checked_at": "2026-11-06T12:23:57Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-11-06T13:32:44Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "S Sistem Lojistik Hizmetler Anonim Sirketi",
-      "entity_list": "ofac",
-      "entity_list_id": "58492",
-      "listed_on": "2026-09-08",
-      "programs": "IFSR; SDGT",
-      "domain": "app.ssistem.com",
-      "listed_domain": "ssistem.com",
-      "domain_list": "ofac",
-      "domain_list_id": "58492",
-      "domain_source_url": "",
-      "entry_type": "certificate",
-      "not_before": "2026-08-08T14:09:46Z",
-      "not_after": "2026-11-06T14:09:45Z",
-      "serial": "05bc0557ca1937326a462dd9906c27c7e724",
-      "sha256": "1f4e070360169cf993277eed631f1b74d302c47da7f1a871212ab8d4a5d8675f",
-      "crt_sh": "https://crt.sh/?sha256=1f4e070360169cf993277eed631f1b74d302c47da7f1a871212ab8d4a5d8675f",
-      "censys": "https://platform.censys.io/certificates/1f4e070360169cf993277eed631f1b74d302c47da7f1a871212ab8d4a5d8675f",
-      "validation": "DV",
-      "crl_this_update": "2026-11-06T11:56:22Z",
       "revocation_checked_at": "2026-11-06T12:23:57Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-11-06T13:32:44Z"
