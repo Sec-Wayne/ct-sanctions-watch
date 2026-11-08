@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "generated_at": "2026-11-08T09:52:47Z",
+  "generated_at": "2026-11-08T10:54:09Z",
   "sanctions_lists_read_at": "2026-11-08T04:22:29Z",
   "revocation_checked_at": "2026-11-08T08:21:59Z",
   "crl_issued_min": "2026-11-07T12:04:46Z",
@@ -60,7 +60,7 @@
       "url": "https://www.ccadb.org/resources",
       "role": "CA operator and country",
       "published_date": null,
-      "fetched_date": "2026-11-07"
+      "fetched_date": "2026-11-08"
     },
     {
       "id": "",
@@ -12639,33 +12639,6 @@
       "censys": "https://platform.censys.io/certificates/712910769abac73ad9c69bc5fa97d2d9e019e2ac7ca7092ee34b7f6975c80b8e",
       "validation": "DV",
       "crl_this_update": "2026-11-08T07:54:46Z",
-      "revocation_checked_at": "2026-11-08T08:21:59Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-11-08T09:20:34Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "Institute for Information Transmission Problems of the Russian Academy of Sciences",
-      "entity_list": "ofac",
-      "entity_list_id": "50891",
-      "listed_on": "2024-10-30",
-      "programs": "RUSSIA-EO14024",
-      "domain": "nextcloud.wireless.iitp.ru",
-      "listed_domain": "iitp.ru",
-      "domain_list": "seco",
-      "domain_list_id": "59832",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
-      "entry_type": "certificate",
-      "not_before": "2026-08-10T10:23:27Z",
-      "not_after": "2026-11-08T10:23:26Z",
-      "serial": "6779913dfb06df02c85c880e8f1492a153c",
-      "sha256": "b34061d56ae448806f6204c6b5593cfbcc8d27df7c350081625899a765176666",
-      "crt_sh": "https://crt.sh/?sha256=b34061d56ae448806f6204c6b5593cfbcc8d27df7c350081625899a765176666",
-      "censys": "https://platform.censys.io/certificates/b34061d56ae448806f6204c6b5593cfbcc8d27df7c350081625899a765176666",
-      "validation": "DV",
-      "crl_this_update": "2026-11-08T07:40:37Z",
       "revocation_checked_at": "2026-11-08T08:21:59Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-11-08T09:20:34Z"
