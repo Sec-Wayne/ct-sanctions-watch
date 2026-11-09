@@ -27,10 +27,10 @@ All times are UTC.
 
 <!--STATUS-->
 
-- List refreshed: 2026-11-09T00:52:01Z
+- List refreshed: 2026-11-09T01:50:12Z
 - Sanctions lists read: 2026-11-08T04:22:29Z
-- Revocation last checked: 2026-11-08T20:21:43Z
-- CRLs read were issued between 2026-11-08T11:31:37Z and 2026-11-08T20:10:10Z
+- Revocation last checked: 2026-11-09T00:22:00Z
+- CRLs read were issued between 2026-11-08T12:04:46Z and 2026-11-09T00:12:27Z
 
 <!--/STATUS-->
 
@@ -93,7 +93,7 @@ publisher's date. Fetched is when the file was read.
 | `canada` | [Canada Consolidated Autonomous Sanctions List](https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml) | Sanctions list | none | 2026-11-08 |
 |  | [CCADB](https://www.ccadb.org/resources) | CA operator and country | none | 2026-11-08 |
 |  | Certificate Transparency logs | Certificates and their DNS names, read continuously | none | 2026-11-09 |
-|  | Issuer CRLs | Revocation | none | 2026-11-08 |
-|  | OCSP | Revocation, where the certificate names a responder | none | 2026-11-08 |
+|  | Issuer CRLs | Revocation | none | 2026-11-09 |
+|  | OCSP | Revocation, where the certificate names a responder | none | 2026-11-09 |
 
 <!--/SOURCES-->
