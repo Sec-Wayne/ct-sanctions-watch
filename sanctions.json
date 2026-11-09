@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "generated_at": "2026-11-08T22:54:59Z",
+  "generated_at": "2026-11-09T00:52:01Z",
   "sanctions_lists_read_at": "2026-11-08T04:22:29Z",
   "revocation_checked_at": "2026-11-08T20:21:43Z",
   "crl_issued_min": "2026-11-08T11:31:37Z",
@@ -68,7 +68,7 @@
       "url": "",
       "role": "Certificates and their DNS names, read continuously",
       "published_date": null,
-      "fetched_date": "2026-11-08"
+      "fetched_date": "2026-11-09"
     },
     {
       "id": "",
@@ -21414,33 +21414,6 @@
       "censys": "https://platform.censys.io/certificates/1fc629efbc5bc15f53e8220aeb0a4da4d9957b22679849daba95647b4227c8b9",
       "validation": "DV",
       "crl_this_update": "2026-11-08T19:57:34Z",
-      "revocation_checked_at": "2026-11-08T20:21:43Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-11-08T21:07:13Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "Mikrosan OOO",
-      "entity_list": "ofac",
-      "entity_list_id": "42008",
-      "listed_on": "2023-05-19",
-      "programs": "RUSSIA-EO14024",
-      "domain": "toplink.microsun.ru",
-      "listed_domain": "microsun.ru",
-      "domain_list": "seco",
-      "domain_list_id": "99325",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
-      "entry_type": "certificate",
-      "not_before": "2026-08-11T00:07:19Z",
-      "not_after": "2026-11-09T00:07:18Z",
-      "serial": "5d5cc606bba836b947ebe958bc511b53332",
-      "sha256": "4ee85787a37302a833edef52073b097ba3eb7ac366f39a2fe97a947d343392ec",
-      "crt_sh": "https://crt.sh/?sha256=4ee85787a37302a833edef52073b097ba3eb7ac366f39a2fe97a947d343392ec",
-      "censys": "https://platform.censys.io/certificates/4ee85787a37302a833edef52073b097ba3eb7ac366f39a2fe97a947d343392ec",
-      "validation": "DV",
-      "crl_this_update": "2026-11-08T19:40:25Z",
       "revocation_checked_at": "2026-11-08T20:21:43Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-11-08T21:07:13Z"
