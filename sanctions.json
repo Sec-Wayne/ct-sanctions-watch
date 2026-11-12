@@ -1,7 +1,7 @@
 {
   "format": 2,
-  "generated_at": "2026-11-12T10:51:12Z",
-  "sanctions_lists_read_at": "2026-11-10T16:17:26Z",
+  "generated_at": "2026-11-12T11:51:31Z",
+  "sanctions_lists_read_at": "2026-11-12T10:29:40Z",
   "revocation_checked_at": "2026-11-12T08:26:22Z",
   "crl_issued_min": "2026-11-11T12:04:46Z",
   "crl_issued_max": "2026-11-12T08:15:17Z",
@@ -12,7 +12,7 @@
       "url": "https://gels-avoirs.dgtresor.gouv.fr/ApiPublic/api/v1/publication/derniere-publication-fichier-json",
       "role": "Sanctions list",
       "published_date": "2026-11-06",
-      "fetched_date": "2026-11-10"
+      "fetched_date": "2026-11-12"
     },
     {
       "id": "ofac",
@@ -20,7 +20,7 @@
       "url": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml",
       "role": "Sanctions list",
       "published_date": null,
-      "fetched_date": "2026-11-10"
+      "fetched_date": "2026-11-12"
     },
     {
       "id": "uk",
@@ -28,7 +28,7 @@
       "url": "https://sanctionslist.fcdo.gov.uk/docs/UK-Sanctions-List.xml",
       "role": "Sanctions list",
       "published_date": "2026-11-10",
-      "fetched_date": "2026-11-10"
+      "fetched_date": "2026-11-12"
     },
     {
       "id": "seco",
@@ -36,15 +36,15 @@
       "url": "https://www.sesam.search.admin.ch/sesam-search-web/pages/downloadXmlGesamtliste.xhtml?lang=de&action=downloadXmlGesamtlisteAction",
       "role": "Sanctions list",
       "published_date": "2026-11-04",
-      "fetched_date": "2026-11-10"
+      "fetched_date": "2026-11-12"
     },
     {
       "id": "un",
       "name": "UN Security Council Consolidated List",
       "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
       "role": "Sanctions list",
-      "published_date": "2026-11-10",
-      "fetched_date": "2026-11-10"
+      "published_date": "2026-11-12",
+      "fetched_date": "2026-11-12"
     },
     {
       "id": "canada",
@@ -52,7 +52,7 @@
       "url": "https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml",
       "role": "Sanctions list",
       "published_date": null,
-      "fetched_date": "2026-11-10"
+      "fetched_date": "2026-11-12"
     },
     {
       "id": "",
@@ -26220,33 +26220,6 @@
       "censys": "https://platform.censys.io/certificates/a23018ba6e1359a66e264abd964c4cdff81688b49ccbe1d91f1d2f41cc444716",
       "validation": "DV",
       "crl_this_update": "2026-11-12T08:02:54Z",
-      "revocation_checked_at": "2026-11-12T08:26:22Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-11-12T09:07:10Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "Research and Production Center for Automation and Instrumentation Named After Academic NA Pilyugin",
-      "entity_list": "ofac",
-      "entity_list_id": "47282",
-      "listed_on": "2024-02-23",
-      "programs": "RUSSIA-EO14024",
-      "domain": "npcap.ru",
-      "listed_domain": "npcap.ru",
-      "domain_list": "fr-gels",
-      "domain_list_id": "11622",
-      "domain_source_url": "https://gels-avoirs.dgtresor.gouv.fr/ApiPublic/api/v1/publication/derniere-publication-fichier-json",
-      "entry_type": "certificate",
-      "not_before": "2026-08-14T11:31:03Z",
-      "not_after": "2026-11-12T11:31:02Z",
-      "serial": "6abeceaacbc4abd56e7313b18473544cda5",
-      "sha256": "a4cc48eb755e8c1c3aae1ea2356521d17b8dc21741cd07f6077bc087af19c3ae",
-      "crt_sh": "https://crt.sh/?sha256=a4cc48eb755e8c1c3aae1ea2356521d17b8dc21741cd07f6077bc087af19c3ae",
-      "censys": "https://platform.censys.io/certificates/a4cc48eb755e8c1c3aae1ea2356521d17b8dc21741cd07f6077bc087af19c3ae",
-      "validation": "DV",
-      "crl_this_update": "2026-11-12T07:44:05Z",
       "revocation_checked_at": "2026-11-12T08:26:22Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-11-12T09:07:10Z"
