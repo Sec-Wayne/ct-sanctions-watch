@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "generated_at": "2026-11-18T09:51:05Z",
+  "generated_at": "2026-11-18T11:50:28Z",
   "sanctions_lists_read_at": "2026-11-13T11:39:10Z",
   "revocation_checked_at": "2026-11-18T08:24:13Z",
   "crl_issued_min": "2026-11-17T12:04:46Z",
@@ -60,7 +60,7 @@
       "url": "https://www.ccadb.org/resources",
       "role": "CA operator and country",
       "published_date": null,
-      "fetched_date": "2026-11-17"
+      "fetched_date": "2026-11-18"
     },
     {
       "id": "",
@@ -22305,33 +22305,6 @@
       "censys": "https://platform.censys.io/certificates/b8efcb91e3a5a50d16ca393afce49a3433cbe2080187f5e30d9dcadc62abbf71",
       "validation": "DV",
       "crl_this_update": "2026-11-18T07:53:47Z",
-      "revocation_checked_at": "2026-11-18T08:24:13Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-11-18T09:24:50Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "O-SI-ES-TSENTR, OOO",
-      "entity_list": "ofac",
-      "entity_list_id": "51290",
-      "listed_on": "2024-10-30",
-      "programs": "RUSSIA-EO14024",
-      "domain": "research.ocs.ru",
-      "listed_domain": "ocs.ru",
-      "domain_list": "seco",
-      "domain_list_id": "92005",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
-      "entry_type": "certificate",
-      "not_before": "2026-08-20T11:43:32Z",
-      "not_after": "2026-11-18T11:43:31Z",
-      "serial": "623bc30d55ea08ae4bb035ee4ceb50f5fc5",
-      "sha256": "f882145dc02f698e7bbfa09db0f937355f8ccce7fdd8b420199acd7a9eb1e854",
-      "crt_sh": "https://crt.sh/?sha256=f882145dc02f698e7bbfa09db0f937355f8ccce7fdd8b420199acd7a9eb1e854",
-      "censys": "https://platform.censys.io/certificates/f882145dc02f698e7bbfa09db0f937355f8ccce7fdd8b420199acd7a9eb1e854",
-      "validation": "DV",
-      "crl_this_update": "2026-11-18T07:54:03Z",
       "revocation_checked_at": "2026-11-18T08:24:13Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-11-18T09:24:50Z"
