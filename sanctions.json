@@ -1,7 +1,7 @@
 {
   "format": 2,
-  "generated_at": "2026-11-19T09:52:14Z",
-  "sanctions_lists_read_at": "2026-11-18T17:02:41Z",
+  "generated_at": "2026-11-19T11:51:24Z",
+  "sanctions_lists_read_at": "2026-11-19T09:35:00Z",
   "revocation_checked_at": "2026-11-19T08:26:13Z",
   "crl_issued_min": "2026-11-18T12:04:46Z",
   "crl_issued_max": "2026-11-19T08:13:24Z",
@@ -12,7 +12,7 @@
       "url": "https://gels-avoirs.dgtresor.gouv.fr/ApiPublic/api/v1/publication/derniere-publication-fichier-json",
       "role": "Sanctions list",
       "published_date": "2026-11-18",
-      "fetched_date": "2026-11-18"
+      "fetched_date": "2026-11-19"
     },
     {
       "id": "ofac",
@@ -20,7 +20,7 @@
       "url": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml",
       "role": "Sanctions list",
       "published_date": null,
-      "fetched_date": "2026-11-18"
+      "fetched_date": "2026-11-19"
     },
     {
       "id": "uk",
@@ -28,7 +28,7 @@
       "url": "https://sanctionslist.fcdo.gov.uk/docs/UK-Sanctions-List.xml",
       "role": "Sanctions list",
       "published_date": "2026-11-17",
-      "fetched_date": "2026-11-18"
+      "fetched_date": "2026-11-19"
     },
     {
       "id": "seco",
@@ -36,15 +36,15 @@
       "url": "https://www.sesam.search.admin.ch/sesam-search-web/pages/downloadXmlGesamtliste.xhtml?lang=de&action=downloadXmlGesamtlisteAction",
       "role": "Sanctions list",
       "published_date": "2026-11-13",
-      "fetched_date": "2026-11-18"
+      "fetched_date": "2026-11-19"
     },
     {
       "id": "un",
       "name": "UN Security Council Consolidated List",
       "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
       "role": "Sanctions list",
-      "published_date": "2026-11-18",
-      "fetched_date": "2026-11-18"
+      "published_date": "2026-11-19",
+      "fetched_date": "2026-11-19"
     },
     {
       "id": "canada",
@@ -52,7 +52,7 @@
       "url": "https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml",
       "role": "Sanctions list",
       "published_date": null,
-      "fetched_date": "2026-11-18"
+      "fetched_date": "2026-11-19"
     },
     {
       "id": "",
@@ -60,7 +60,7 @@
       "url": "https://www.ccadb.org/resources",
       "role": "CA operator and country",
       "published_date": null,
-      "fetched_date": "2026-11-18"
+      "fetched_date": "2026-11-19"
     },
     {
       "id": "",
@@ -14299,33 +14299,6 @@
       "entity_list_id": "50279",
       "listed_on": "2024-08-23",
       "programs": "RUSSIA-EO14024",
-      "domain": "ws.flight.stratim.tech",
-      "listed_domain": "stratim.tech",
-      "domain_list": "seco",
-      "domain_list_id": "91824",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
-      "entry_type": "certificate",
-      "not_before": "2026-08-21T11:07:30Z",
-      "not_after": "2026-11-19T11:07:29Z",
-      "serial": "527969485e1e2fa32bd763e06a48d09b968",
-      "sha256": "a8d70eadbe2304c820f9b527b96c0e4503e5aa4463c56662231ae9b671deae93",
-      "crt_sh": "https://crt.sh/?sha256=a8d70eadbe2304c820f9b527b96c0e4503e5aa4463c56662231ae9b671deae93",
-      "censys": "https://platform.censys.io/certificates/a8d70eadbe2304c820f9b527b96c0e4503e5aa4463c56662231ae9b671deae93",
-      "validation": "DV",
-      "crl_this_update": "2026-11-19T07:53:47Z",
-      "revocation_checked_at": "2026-11-19T08:26:13Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-11-19T09:31:53Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "JOINT STOCK COMPANY STRATIM TECH",
-      "entity_list": "ofac",
-      "entity_list_id": "50279",
-      "listed_on": "2024-08-23",
-      "programs": "RUSSIA-EO14024",
       "domain": "www.stratim.tech",
       "listed_domain": "stratim.tech",
       "domain_list": "seco",
@@ -17796,33 +17769,6 @@
       "censys": "https://platform.censys.io/certificates/b5bfd9ebef0c03c62fd6c1709129268b50c3bea38cd6ae1e04176883d40c65a6",
       "validation": "DV",
       "crl_this_update": "2026-11-19T07:46:18Z",
-      "revocation_checked_at": "2026-11-19T08:26:13Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-11-19T09:31:53Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "Joint Stock Company Stratim",
-      "entity_list": "ofac",
-      "entity_list_id": "50246",
-      "listed_on": "2024-08-23",
-      "programs": "RUSSIA-EO14024",
-      "domain": "ws.flight.stratim.tech",
-      "listed_domain": "stratim.tech",
-      "domain_list": "seco",
-      "domain_list_id": "91706",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
-      "entry_type": "certificate",
-      "not_before": "2026-08-21T11:07:30Z",
-      "not_after": "2026-11-19T11:07:29Z",
-      "serial": "527969485e1e2fa32bd763e06a48d09b968",
-      "sha256": "a8d70eadbe2304c820f9b527b96c0e4503e5aa4463c56662231ae9b671deae93",
-      "crt_sh": "https://crt.sh/?sha256=a8d70eadbe2304c820f9b527b96c0e4503e5aa4463c56662231ae9b671deae93",
-      "censys": "https://platform.censys.io/certificates/a8d70eadbe2304c820f9b527b96c0e4503e5aa4463c56662231ae9b671deae93",
-      "validation": "DV",
-      "crl_this_update": "2026-11-19T07:53:47Z",
       "revocation_checked_at": "2026-11-19T08:26:13Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-11-19T09:31:53Z"
@@ -25761,33 +25707,6 @@
       "censys": "https://platform.censys.io/certificates/b5bfd9ebef0c03c62fd6c1709129268b50c3bea38cd6ae1e04176883d40c65a6",
       "validation": "DV",
       "crl_this_update": "2026-11-19T07:46:18Z",
-      "revocation_checked_at": "2026-11-19T08:26:13Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-11-19T09:31:53Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "STRATIM LIMITED LIABILITY COMPANY",
-      "entity_list": "ofac",
-      "entity_list_id": "50274",
-      "listed_on": "2024-08-23",
-      "programs": "RUSSIA-EO14024",
-      "domain": "ws.flight.stratim.tech",
-      "listed_domain": "stratim.tech",
-      "domain_list": "seco",
-      "domain_list_id": "91832",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
-      "entry_type": "certificate",
-      "not_before": "2026-08-21T11:07:30Z",
-      "not_after": "2026-11-19T11:07:29Z",
-      "serial": "527969485e1e2fa32bd763e06a48d09b968",
-      "sha256": "a8d70eadbe2304c820f9b527b96c0e4503e5aa4463c56662231ae9b671deae93",
-      "crt_sh": "https://crt.sh/?sha256=a8d70eadbe2304c820f9b527b96c0e4503e5aa4463c56662231ae9b671deae93",
-      "censys": "https://platform.censys.io/certificates/a8d70eadbe2304c820f9b527b96c0e4503e5aa4463c56662231ae9b671deae93",
-      "validation": "DV",
-      "crl_this_update": "2026-11-19T07:53:47Z",
       "revocation_checked_at": "2026-11-19T08:26:13Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-11-19T09:31:53Z"
