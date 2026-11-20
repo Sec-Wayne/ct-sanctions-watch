@@ -1,6 +1,6 @@
 {
   "format": 2,
-  "generated_at": "2026-11-20T09:52:46Z",
+  "generated_at": "2026-11-20T10:54:54Z",
   "sanctions_lists_read_at": "2026-11-19T09:35:00Z",
   "revocation_checked_at": "2026-11-20T08:25:59Z",
   "crl_issued_min": "2026-11-19T12:04:46Z",
@@ -60,7 +60,7 @@
       "url": "https://www.ccadb.org/resources",
       "role": "CA operator and country",
       "published_date": null,
-      "fetched_date": "2026-11-19"
+      "fetched_date": "2026-11-20"
     },
     {
       "id": "",
@@ -12396,33 +12396,6 @@
       "censys": "https://platform.censys.io/certificates/e5f380d01a6dccecd767c25f150b54e8da209e0637a91ad6dd1403b9569a4157",
       "validation": "DV",
       "crl_this_update": "2026-11-20T07:50:09Z",
-      "revocation_checked_at": "2026-11-20T08:25:59Z",
-      "ocsp_status": "no_ocsp",
-      "ocsp_checked_at": "2026-11-20T09:21:31Z"
-    },
-    {
-      "ca": "Internet Security Research Group",
-      "ca_country": "United States of America",
-      "sanctions_list": "US",
-      "entity": "International Center for Quantum Optics and Quantum Technologies Limited Liability Company",
-      "entity_list": "ofac",
-      "entity_list_id": "39188",
-      "listed_on": "2022-09-15",
-      "programs": "RUSSIA-EO14024",
-      "domain": "test-site.rqc.ru",
-      "listed_domain": "rqc.ru",
-      "domain_list": "seco",
-      "domain_list_id": "50572",
-      "domain_source_url": "https://www.seco.admin.ch/en/searching-for-subjects-sanctions",
-      "entry_type": "certificate",
-      "not_before": "2026-08-22T10:42:17Z",
-      "not_after": "2026-11-20T10:42:16Z",
-      "serial": "6b4469709e5657cd0f034a6bda91feef3ef",
-      "sha256": "ab30fe8c69d611657d13e24c69b65e2ce65f3f7b5b3be412f5949152dd378aa6",
-      "crt_sh": "https://crt.sh/?sha256=ab30fe8c69d611657d13e24c69b65e2ce65f3f7b5b3be412f5949152dd378aa6",
-      "censys": "https://platform.censys.io/certificates/ab30fe8c69d611657d13e24c69b65e2ce65f3f7b5b3be412f5949152dd378aa6",
-      "validation": "DV",
-      "crl_this_update": "2026-11-20T07:50:26Z",
       "revocation_checked_at": "2026-11-20T08:25:59Z",
       "ocsp_status": "no_ocsp",
       "ocsp_checked_at": "2026-11-20T09:21:31Z"
