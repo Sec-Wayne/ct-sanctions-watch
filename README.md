@@ -27,10 +27,10 @@ All times are UTC.
 
 <!--STATUS-->
 
-- List refreshed: 2026-11-21T23:53:10Z
+- List refreshed: 2026-11-22T01:54:36Z
 - Sanctions lists read: 2026-11-20T13:53:04Z
-- Revocation last checked: 2026-11-21T20:29:01Z
-- CRLs read were issued between 2026-11-21T09:43:05Z and 2026-11-21T20:16:21Z
+- Revocation last checked: 2026-11-22T00:26:51Z
+- CRLs read were issued between 2026-11-21T09:43:05Z and 2026-11-22T00:14:11Z
 
 <!--/STATUS-->
 
@@ -92,8 +92,8 @@ publisher's date. Fetched is when the file was read.
 | `un` | [UN Security Council Consolidated List](https://scsanctions.un.org/resources/xml/en/consolidated.xml) | Sanctions list | 2026-11-20 | 2026-11-20 |
 | `canada` | [Canada Consolidated Autonomous Sanctions List](https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml) | Sanctions list | none | 2026-11-20 |
 |  | [CCADB](https://www.ccadb.org/resources) | CA operator and country | none | 2026-11-21 |
-|  | Certificate Transparency logs | Certificates and their DNS names, read continuously | none | 2026-11-21 |
-|  | Issuer CRLs | Revocation | none | 2026-11-21 |
-|  | OCSP | Revocation, where the certificate names a responder | none | 2026-11-21 |
+|  | Certificate Transparency logs | Certificates and their DNS names, read continuously | none | 2026-11-22 |
+|  | Issuer CRLs | Revocation | none | 2026-11-22 |
+|  | OCSP | Revocation, where the certificate names a responder | none | 2026-11-22 |
 
 <!--/SOURCES-->
